@@ -2,9 +2,9 @@
 
 let city = "Alemania";
 let children = 1;
-let husbands = 1;
-let work = "OR researcher";
-let award = "IFORS";
+let husbands = "mi novio";
+let work = "aplicando investigación de operaciones";
+let award = "premio Franz Edelman";
 let age = 35;
 
 // console.log(city, children, husbands, work, award, age);
@@ -16,7 +16,7 @@ let age = 35;
 // console.log("Age:", age);
 
 console.log("Madame Zazu me dijo que:")
-console.log("City:", city, "Children:", children, "Husbands:", husbands, "Work:", work, "Award:", award, "Age:", age)
+console.log("Viviré en", city, "tendré", children, "hijo", "y estaré casada con", husbands, "en mi trabajo estaré", work , "y ganaré el", award, "a la edad de ", age)
 
 
 
@@ -74,11 +74,14 @@ console.log(EdadCalculator(1988, 2020));
 //  while(i <= 10)
 
 
+
+//Tabla de multiplicar
  for(i = 0; i <= 10; i++){
      for(j =0; j <= 10; j++){
          console.log(i, "*", j, "=", i*j);
      }
  }
+ 
 
 
 

@@ -13,6 +13,10 @@ function isLandScape (width, height) {
  * 
  */
 
+
+  
+    
+
  // limite de velocidad
  /**
   * Limite de velocidad = 70
